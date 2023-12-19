@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "inference-platform"
+version = "0.1.0"
+description = ""
+authors = ["Yash Prakash <yashprakash13@gmail.com>"]
+readme = "README.md"
+packages = [{include = "inference_platform"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
