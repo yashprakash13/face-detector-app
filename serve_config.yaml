@@ -20,7 +20,7 @@ spec:
 
       route_prefix: /
 
-      import_path: model:facedetector_app
+      import_path: api:facedetector_app
 
       runtime_env: 
         working_dir: "https://github.com/yashprakash13/face-detector-app/archive/master.zip"
